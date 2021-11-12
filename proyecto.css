@@ -42,5 +42,17 @@ body{
     margin-top: 0%;
     margin: auto;
 }
+.container-product{
+    margin:auto;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.navbar{
+    margin-top: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
 
     
