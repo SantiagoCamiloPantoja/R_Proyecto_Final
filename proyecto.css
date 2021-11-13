@@ -41,7 +41,7 @@ body{
 }
 .container-fluid{
     background-color: rgba(143, 77, 19, 0.479);
-    margin: auto;
+    margin: 0%;
     top: 0%;
     border-top:rgba(143, 77, 19, 0.116) ;
     border-top: 150px;
@@ -52,7 +52,7 @@ body{
     margin: auto;
 }
 .container-product{
-    margin:auto;
+    margin:0%;
     margin-left: 200px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -96,15 +96,24 @@ p2{
     padding-bottom: 10px;
     padding-top: 10px;
     border-top-color: rgb(143, 77, 19);
-    border-bottom-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);}
+    .card-header1 {
+        padding-bottom: 5px;
+        padding-top: 10px;
+        border-top-color: rgb(17, 9, 3);
+        border-bottom-color: rgb(0, 0, 0);
 }
+
 .card-body{
     background-color: rgba(143, 77, 19, 0.479);
     text-align: center;
 
 }
 .container-redes{
-    text-align: center;
+    padding-top: 25px;
+    padding-left: -2cm;
+    padding-right: 3px;
+
 }
 
 
@@ -149,7 +158,9 @@ p2{
     font-family: 'calibri';
     font-size: 18px;
     color: white;
+    
   }
+  ::-webkit-input-placeholder { color: rgb(221, 193, 193); } 
   
   .form-register p {
     height: 40px;
@@ -180,6 +191,9 @@ p2{
   h4{
       text-align: center;
       font-size: 24px;
+  }
+  .container18{
+      padding-top: 0px;
   }
 
 

@@ -12,7 +12,7 @@ $connection = mysqli_connect($host, $user, $pass);
 $NOMBRE = $_POST["nombre"] ;
 $CORREO = $_POST["correo"];
 $CELULAR = $_POST["celular"] ;
-$CIUDAD = $_POST["ciudad"] ;
+$DIRECCION = $_POST["direccion"] ;
 $CAJA = $_POST["caja"] ;
 
 
@@ -39,8 +39,8 @@ if(!$connection)
         echo "<h3>Tabla seleccionada:</h3>" ;
         }
         //insertamos datos de registro al mysql xamp, indicando nombre de la tabla y sus atributos
-        $instruccion_SQL = "INSERT INTO `pedidos`(`nombre`, `correo`, `celular`, `ciudad`, `caja`)
-        VALUES ('[$NOMBRE]','[$CORREO]','$CELULAR','$CIUDAD','$CAJA')";
+        $instruccion_SQL = "INSERT INTO `pedidos`(`nombre`, `correo`, `celular`, `direccion`, `caja`)
+        VALUES ('[$NOMBRE]','[$CORREO]','$CELULAR','$DIRECCION','$CAJA')";
                            
                             
         $resultado = mysqli_query($connection,$instruccion_SQL);
