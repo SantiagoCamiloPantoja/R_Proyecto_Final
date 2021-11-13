@@ -50,6 +50,7 @@
     </div>
     </nav>
     <!--FIN NAVBAR___________________________________________________________________________________________________--->
+
     
     <!--INICIO CAJA PARA 3 PRODUCTOS______________________________________________________________ -->
     <div class="container-fluid">
@@ -63,48 +64,21 @@
      
     <!--INICIO FORMULARIO SOLCITAR PEDIDO___________________________________________________________________________-->
      
-      <div class="container">
-    <div>
-    <form class="row g-3">
-        <div class="col-md-6">
-          <label for="inputEmail4" class="form-label"><!-- Nombres --></label>
-          <input type="text" class="form-control" id="inputEmail4" name="nombre" placeholder="Nombres">
-        </div>
-        <div class="col-md-6">
-          <label for="inputPassword4" class="form-label"> <!-- Apellidos --></label>
-          <input type="text" class="form-control" id="inputPassword4" placeholder="Apellidos">
-        </div>
-        <div class="col-12">
-          <label for="inputAddress" class="form-label"><!-- Address --></label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="Dirección de residencia">
-        </div>
-        <div class="col-12">
-          <label for="inputAddress2" class="form-label"><!-- Address 2 --></label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="Celular">
-        </div>
-        <div class="col-12">
-          <label for="inputAddress2" class="form-label"><!-- Address 2 --></label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="Teléfono">
-        </div>
-        <div class="col-md-6">
-          <label for="inputEmail4" class="form-label"><!-- Nombres --></label>
-          <input type="email" class="form-control" id="inputEmail4" placeholder="Correo electronico">
-        </div>
-        <div class="col-md-6">
-          <label for="inputCity" class="form-label">Solicite la cantidad:</label>
-          <input type="number" class="form-control" id="inputCity" placeholder="Quimbolitos">
-        </div>
-        <div class="col-md-6">
-          <label for="inputCity" class="form-label">.</label>
-          <input type="number" class="form-control" id="inputCity" placeholder="Tamales de queso">
-        </div>
-
-     
-        <div class="col-12">
-          <button type="submit" name="solicitar" class="btn btn-primary"  style="display: block;margin: auto;" >Solicitar</button>
-        </div>
-      </form> 
-       <!--INICIO FORMULARIO SOLCITAR PEDIDO___________________________________________________________________________-->
+    <div class="container18" style= "align-items: center;" >
+      <section class="form-register">
+        <form action="enviar.php" name="" method="post" style="margin-top: 1px; padding-top: 1px;">
+        <h4> ¡ Inscripción a Boletín !</h4>
+        <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre completo">
+        <input class="controls" type="text" name="correo"  placeholder="Ingrese su Correo">
+        <input class="controls" type="text" name="celular" id="celular" placeholder="Ingrese su Celular">
+        <input class="controls" type="text" name="ciudad" id="ciudad" placeholder="Ciudad o País">
+        <input class="controls" type="text" name="caja" id="caja" placeholder="Comentarios o dudas...">
+        
+        <input class="botons" type="submit" value="Registrar" >
+      </form>
+      </section>
+    </div>
+       <!--FIN FORMULARIO SOLCITAR PEDIDO___________________________________________________________________________-->
 <!--__________________________________________________________________-->
     
 
