@@ -52,7 +52,8 @@ $QUIMBOLITOS= $_POST["quimbolitos"] ;
         }
         else
         {
-        echo "<h3>Tabla seleccionada:</h3>" ;
+        echo "<h1> Su pedido se ha registrado con exito!.</h1>" ;
+        echo "<h1> Nos estaremos comunicando con usted.</h1>" ;
         }
         //insertamos datos de registro al mysql xamp, indicando nombre de la tabla y sus atributos
         $instruccion_SQL = "INSERT INTO `pedidos`(`nombre`, `correo`, `celular`, `direccion`, `tamales`, `quimbolitos`)
